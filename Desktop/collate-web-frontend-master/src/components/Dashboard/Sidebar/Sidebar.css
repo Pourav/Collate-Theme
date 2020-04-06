@@ -1,0 +1,31 @@
+
+.dash-logo{
+    height: 80px;
+}
+.logo-list{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size:90px !important;
+}
+.dash-list{
+    font-weight: bold !important;
+    font-size:50px !important;
+    margin-left: 35px;
+    padding: 5px;
+}
+.log-list{
+    padding-top: 170px ;
+    margin-left: 45px;
+}
+.app-side{
+    font-size: 45px;
+}
+.app-sidenav{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px){
+
+}

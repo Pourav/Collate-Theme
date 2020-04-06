@@ -1,0 +1,40 @@
+.header-side{
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+}
+.searchbar{
+    border: 2px solid silver !important;
+    height: 40px !important;
+    width: 250px !important;
+    border-radius: 20px !important;
+    padding-left: 15px;
+    margin-right: 30px;
+}
+.div-pad{
+    padding: 6px;
+}
+
+.dash{
+    margin-right: 650px;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 10px;
+}
+.search-btn{
+    position: absolute;
+    margin-top: 10px !important;
+    margin-left: -40px;
+    color: silver;
+}
+.avatar-header{
+    height:50px !important; 
+}
+
+@media screen and (max-width:800px){
+    .avatar-header{
+        margin-top: 5px;
+    }
+}
+

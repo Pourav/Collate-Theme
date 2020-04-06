@@ -1,0 +1,157 @@
+.main{
+    margin-top: 100px;
+    margin-left:180px!important;
+}
+.header{
+    margin-top: -100px;
+}
+
+.username{
+    font-size:30px;
+}
+.card-space{
+    padding:10px;
+    width: 300px !important;
+}
+
+.card1{
+    border-radius: 10px;
+}
+
+.card-head{
+    width: 230px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: -10px !important;
+    padding: 5px;
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+.card-subhead{
+    position: relative;
+    font-size: 17px;
+    color: grey;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+}
+.view-btn1{
+    width:50px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 75px ;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.view-btn2{
+    width:50px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.view-btn3{
+    width:50px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.view-btn4{
+    width:50px;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.view-btn5{
+    width:50px;
+    border: 2px solid teal;
+    border-radius: 15px;
+    padding:5px;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.unit-display{
+    padding: 11px;
+}
+.desp-subhead{
+    font-size: 10px;
+}
+.pages{
+    font-size: 10px;
+}
+.arrow{
+    cursor: pointer;
+}
+
+.active{
+    transform: translateY(120%);
+}
+.rotate{
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        margin-top: 100px!important;
+        margin-left:15px!important;
+    }
+    .header{
+        position: absolute;
+        margin-top: -48px;
+        margin-left:140px !important;
+    }
+    .sidebar{
+        margin-top: -45px;
+        position: absolute;
+        margin-left: -5px;
+    }
+    .main1{
+        margin-top: 0px;
+    }
+    .username{
+        padding-top: 30px !important;
+        margin-left: 30px;
+    }
+
+    .card{
+        width:350px !important;
+    }
+    .unit-display{
+        margin-left: 10px;
+    }
+    .view-btn1{
+        margin-left: 80px !important;
+    }
+    .view-btn2{
+        margin-left: 80px !important;
+    }
+    .view-btn3{
+        margin-left: 80px;
+    }
+    .view-btn4{
+        margin-left: 80px;
+    }
+    .view-btn5{
+        margin-left: 80px;
+    }
+}

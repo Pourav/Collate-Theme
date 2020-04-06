@@ -1,0 +1,389 @@
+.mh-100vh-login {
+    min-height: 60.8vh;
+    padding-bottom: 0px;
+  }
+
+.login{
+  background: linear-gradient(0deg, #ffffff 50%, #6633cc 50%);
+  margin-top: -51px;
+  resize: none;
+}
+
+.login-form-fields{
+  height:160px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+.input-field{
+  padding-bottom:5px !important;
+  padding-top: -10px;
+}
+.input-top{
+  margin-top: -15px !important;
+}
+.icon{
+  color: gray;
+}
+  .greeting{
+      color: white; 
+  }
+
+  #login-greet{
+    position: relative;
+    left: 4vw !important;
+  }
+  .greeting h1{
+    font-size: 70px;
+  }
+
+
+
+  @media(max-width:426px){
+
+    .navbar-toggler img{
+      width: 50px;
+      max-height: 55px;
+    }
+    .greeting{
+      padding-top: 40px;
+      position: relative;
+      margin-left:2.5vw !important;
+      margin-top: 0px;
+    }
+
+    #login-greet{
+      margin-top: 30px;
+      margin-left: -9.9vw !important;
+    }
+
+    .greeting h1{
+      font-size: 47px !important;
+    }
+    .mh-100vh-login{
+      min-height: 145vw !important;
+      position: relative;
+      top: 20px;
+    }
+
+    .login-form{
+      position: relative;
+      left: -10px;
+    }
+
+    .login-form-fields{
+      height: 190px;
+      width: 89vw;
+      position: relative;
+      left: -40px;
+    }
+
+    .login-final-btn{
+    width: 200px;
+    margin-bottom: 50px;
+    font-size: 5px !important;
+    }
+
+    .login-btn,.new-act-btn{
+      height: 89% !important;
+      font-size: small !important;
+    }
+    .input-field .material-icons{
+      display: none;
+    }
+    
+    .suboptions{
+      width: 85vw;
+      margin-left: -9vw;
+    }
+
+    .social img{
+      height: 13vw !important;
+    }
+  }
+  .sign-text{
+    font-weight: 600 !important;
+  }
+
+  @media(max-width:380px){
+    .login-form-fields{
+      position: relative;
+      top: 1px;
+    }
+
+    .login-form{
+      position: relative;
+      top: -40px;
+    }
+  }
+
+  @media(max-width:330px){
+    .mh-100vh-login{
+      min-height: 50vh;
+    }
+
+    .login-form-fields{
+      margin-top: 0px;
+      position: relative;
+      left: -10px;
+    }
+
+    .login-final-btn{
+      position: relative;
+      left: -15px;
+    }
+  }
+
+
+  .login-final-btn button{
+    width: 100%;
+    height: 100%;
+  }
+
+  #login-block {
+    z-index: 2;
+    border-radius: 10px;
+
+  }
+
+
+  @media(max-width:767px){
+    .col-md-6{
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    #login-block {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 575px) {
+    #login-block {
+      left: 40px;
+      opacity: 1;
+    }
+  }
+
+  
+  
+  @media (max-width: 991.98px) {
+    #bg-block {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .w-lg-75 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-0 {
+      border-radius: 0 !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .w-xl-50 {
+      width: 100%;
+    }
+  }
+
+  .login-form{
+    margin-top: 40px;
+  }
+
+  .login-btn{  
+      background-color: #6633cc;
+      color: white;
+      border-color: transparent;
+      font-weight: 500;
+      height: 50px !important;
+  }
+
+  .new-act-btn{
+      background-color: white;
+      color: grey;
+      border-color: transparent;
+      font-weight: 500;
+      height: 50px !important;
+  }
+
+  @media (max-width:395px){
+    .new-act-btn,.new-act-btn:hover{
+      font-size: small;
+    }
+    .login-btn,.login-btn:hover{
+      font-size: small;
+    }
+    .login-form{
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width:340px){
+    .new-act-btn,.new-act-btn:hover{
+      font-size: 10px;
+    }
+    .login-btn,.login-btn:hover{
+      font-size: 10px;
+    }
+  }
+
+.login-form-fields{
+  background-color: #ffffff;
+}
+
+.input-field{
+  padding: 10px;
+}
+
+
+.form-group input{
+  position: relative;
+  top: -25px;
+}
+
+.form-controlinvalid{
+  width: 100%;
+  margin-bottom: -30px;
+
+}
+
+.form-controlvalid{
+  width: 100%;
+  margin-bottom: -10px;
+  border: transparent;
+  padding: 10px;
+}
+
+.valid{
+  width: 100%;
+  margin-bottom: -10px;
+  border: transparent;
+  padding: 10px;
+}
+
+.validinvalid{
+  width: 100%;
+  margin-bottom: -10px;
+  border: transparent;
+  padding: 10px;
+}
+
+
+
+.social-btn-fb,.social-btn-fb:hover,.social-btn-fb:active,.social-btn-fb:visited,.social-btn-fb:focus,.social-btn-fb::selection{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-radius: 100px transparent !important;
+  float: right;
+}
+
+
+.social-btn-go,.social-btn-go:hover,.social-btn-go:active,.social-btn-go:visited,.social-btn-go:focus,.social-btn-go::selection{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-radius: 100px transparent !important;
+  float: left;
+}
+
+.social-btn-fb img,.social-btn-go img{
+  height: 60px !important;
+}
+
+.remember,.forgot{
+  width: 50px;
+}
+
+.remember span{
+  white-space: nowrap;
+  float: left;
+  color: rgb(165, 162, 162);
+  font-weight: 500;
+  
+}
+
+.forgot span{
+  white-space: nowrap;
+  float: right;
+  color: rgb(165, 162, 162);
+  font-weight: 500;
+}
+
+.alert{
+  display: none;
+}
+
+
+/* @media (max-width:1200px) and (orientation:landscape){
+  .full-login-page{
+      display: none;
+  }
+  .login{
+      height: 72.9vh;
+      background: #6633cc;
+    margin-top: -10px;
+  }
+
+    
+} */
+
+@media (orientation:portrait),(min-width:830px){
+  .rotate-device-lock{
+      display: none;
+  }
+}
+
+@media (min-width:630px) and (max-width:830px) and (orientation:landscape){
+
+  .full-login-page{
+      display: none;
+  }
+  .login{
+      height: 72.9vh;
+      background: #6633cc;
+    margin-top: -10px;
+  }
+
+  
+  .phone {
+      height: 50px;
+      width: 100px;
+      border: 3px solid white;
+      border-radius: 10px;
+      animation: rotate 1.5s ease-in-out infinite alternate;
+      position: relative;
+      left: 43vw;
+      display: block;
+    }
+
+    .message {
+      color: white;
+      font-size: 1em;
+      margin-top: 40px;
+    }
+    
+    @keyframes rotate {
+      0% {
+            transform: rotate(0deg)
+        }
+        50% {
+            transform: rotate(-90deg)
+        }
+        100% {
+            transform: rotate(-90deg)
+        }
+    }
+    
+}
+
+input{
+  resize: none;
+}

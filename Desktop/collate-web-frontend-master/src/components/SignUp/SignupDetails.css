@@ -1,0 +1,352 @@
+.mh-100vh-signupd {
+  min-height: 63.7vh;
+  padding-bottom: 0px;
+}
+
+.signupd-details{
+  background: linear-gradient(0deg, #ffffff 60%, #6633cc 40%);
+  margin-top: -21px;
+  
+  
+}
+.signupd-form-fields{
+  margin-top: -50px !important;
+  margin-left: -120px !important;
+  height: 360px !important;
+  width: 700px;
+  margin-bottom: 30px;
+
+}
+.headin{
+  position: relative;
+  left: -4vw;
+}
+
+  
+#login-bkgd{
+  padding-top: 50px;
+}
+  #login-block-signupd {
+    z-index: 2;
+    margin-top: 40px;
+  }
+  @media (max-width: 991.98px) {
+    #login-block {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 575px) {
+    #login-block {
+      left: 40px;
+      opacity: 1;
+    }
+
+    .signupd-form-fields{
+      position: relative;
+      left: 40px;
+      top: 30px;
+    }
+  }
+/*
+  #op1{
+      background-image: url('../../assests/avatar\ -1.png');
+  }
+*/
+
+
+@media(max-width:450px){
+  .signupd-form{
+    position: relative;
+    left: 35px;
+    top: -20px;
+  }
+  .signupd-details{
+    height: 210vw;
+  }
+
+  .greeting{
+    position: relative;
+    top: -20px;
+  }
+
+  .signupd-form-fields{
+    position: relative;
+    left: -8px;
+    top: 0px;
+  }
+  .signupd-details{
+    background: linear-gradient(0deg, #ffffff 50%, #6633cc 50%);
+  }
+.choose-ava{
+  position: relative;
+  top: 0px;
+}
+  
+  .avatar-choose img{
+    width: 100%;
+}
+.act-btn{
+  margin-left: 1px;
+}
+
+}
+
+
+@media(max-width:415px){
+  .greeting{
+    position: relative;
+    left: 15px;
+    top: -10px;
+  }
+  .signupd-details{
+    margin-bottom: 170px !important;
+  }
+  .mh-100vh-signupd{
+    margin-top: 50px;
+  }
+
+  .signupd-form-fields{
+    position: relative;
+    left: 9vw;
+  }
+.choose-ava{
+  max-width: 90vw !important;
+  margin-left: -20vw !important;
+}
+
+  .avatar-form .avatar-title{
+    margin-left: 40px;
+  }
+
+  .avatar-choose{
+    max-width: 90vw;
+  }
+  .avatar-choose .col{
+    margin-left: -10px !important;
+  }
+
+  .act-btn{
+    position: relative;
+    top: -30px;
+    left: -2vw !important;
+  }
+}
+
+@media(max-width:390px){
+
+  .signupd-form{
+    position: relative;
+    top: -68px;
+    left: 5.5vw;
+  }
+  .greeting{
+    position: relative;
+    top: -20px;
+  }
+
+  .signupd-details{
+    height: 99vh;
+    margin-bottom: 200px !important;
+  }
+
+  .signupd-form-fields{
+    position: relative;
+    top: 10px;
+  }
+
+  .choose-ava{
+    max-width: 80vw !important;
+    position: relative;
+    left: 10px;
+  }
+  .avatar-choose img{
+    width: 100%;
+  }
+
+  .act-btn{
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media(max-height:680px){
+  .signupd-details{
+    margin-bottom: 400px !important;
+  }
+}
+
+@media(max-width:361px){
+  
+  .choose-ava{
+    position: relative;
+    top: 2.5px;
+  }
+
+  .greeting{
+    position: relative;
+    top: -30px;
+    left: 10px;
+  }
+
+  .signupd-details{
+    height: 100vh;
+  }
+
+  .signupd-form-fields{
+    position: relative;
+    left: 30px;
+  }
+}
+  
+  
+
+@media(max-width:339px){
+  .signupd-form{
+    position: relative;
+    top: -20px;
+  }
+
+  
+}
+  @media (max-width: 991.98px) {
+    #bg-block {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .w-lg-75 {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-0 {
+      border-radius: 0 !important;
+    }
+  }
+
+  @media(max-width:360px){
+    .signupd-form-fields{
+      position: relative;
+      top: 26px;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .w-xl-50 {
+      width: 100%;
+    }
+  }
+
+  .avatar-title{
+    white-space: nowrap;
+  }
+
+  .signupd-form-fields{
+    box-shadow:2px 2px 5px 1px grey;
+    height: 227px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    position: relative;
+    top: 40px;
+  }
+
+  .signupd-form-fields select{
+    margin-top: -32px;
+  }
+  .signupd-form-fields input{
+    margin-top: -32px;
+  }
+
+  .avatar-form{
+    margin-top: 20px !important;
+    width: 100%;
+    margin-left: -5vw;
+  }
+  .avatar-title{
+    font-weight: 500;
+    margin-left: -50px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+  }
+  .phone-number{
+    margin-top: 2px;
+  }
+  .avatar-choose{
+    white-space: nowrap;
+    margin-top: 50px !important;
+    width: 450px;
+  }
+
+  .avatar-choose .s3 img{
+    height: auto !important;
+    width: 55px;
+  }
+::placeholder{
+  font-size: 19px;
+}
+  
+
+  .avatar-choose label{
+      cursor: pointer;
+  }
+
+  
+  [type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  [type=radio]:checked + img {
+    outline: 2px solid gray;
+    outline-style: dashed;
+  }
+
+  .act-btn,.act-btn:hover,.act-btn:visited,.act-btn:active,.act-btn:focus{
+    background-color: #6633cc;
+    color: white;
+    border-color: transparent;
+    border-radius: 50px;
+    position: relative;
+    left: 0px;
+    width: 200%;
+    height: 110%;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width:800px){
+    .choose-ava{
+      width: 400px !important;
+      margin-left: -100px;
+    }
+    .signupd-form-fields{
+      width: 300px;
+      margin-left: -80px !important;
+    }
+    
+  }
+
+  .signupd-form-fields option{
+    color: #6633cc !important;
+  }
+  @media (min-width:630px) and (max-width:830px) and (orientation:landscape){
+    .full-signupd-page{
+        display: none;
+    }
+    .signupd-details{
+        min-height: 62.9vh;
+        background: #6633cc;
+      margin-top: -10px;
+      margin-bottom: 0px !important;
+    }
+
+  }

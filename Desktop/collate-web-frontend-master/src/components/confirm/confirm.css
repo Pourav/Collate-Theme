@@ -1,0 +1,67 @@
+.confirm-page{
+  background: linear-gradient(0deg, #ffffff 50%, #6633cc 50%);
+  height: 100vh;
+}
+
+#collate-logo{
+    width: 120px;
+    margin: 10px;
+    margin-left: 45vw;
+}
+
+.message-block .col{
+    position: relative;
+    margin-top: 15vh;
+    background-color: #ffffff;
+    color: #6633cc;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.button-block{
+    margin-top: 50px;
+}
+
+.proceed-btn,.proceed-btn:hover,.proceed-btn:focus,.proceed-btn:active,.proceed-btn:visited{
+    background-color: #6633cc;
+    width:30%;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.beta-v2{
+    color: #ffffff;
+    background-color: lightslategrey;
+    border-radius: 20px;
+}
+
+
+@media(max-width:430px) and (orientation:portrait){
+
+    #collate-logo{
+        position: relative;
+        left: -9vw;
+    }
+    .confirm-page{
+        height: 97vh;
+    }
+    .message-block .col{
+        font-size: 30px;
+        margin-top: 10vh;
+    }
+
+    .proceed-btn,.proceed-btn:hover,.proceed-btn:focus,.proceed-btn:active,.proceed-btn:visited{
+        width: 60%;
+    }
+}
+
+@media(min-width:480px) and (max-width:830px) and (orientation:landscape){
+    .confirm-page{
+        height: 150vh;
+    }
+
+    #collate-logo{
+        position: relative;
+        left: -3vw;
+    }
+}

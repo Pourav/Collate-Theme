@@ -1,0 +1,83 @@
+#brand-logo {
+    font-size: 34px;
+  }
+
+  #brand-logo img{
+    width: 25px !important;
+  }
+  
+  #app-navbar {
+    /* background: linear-gradient(120deg, #00e4d0, #5983e8); */
+    background-color: #6633cc;
+  }
+
+  /* .nav-item{
+    background-color: #FFFFFF;
+  }
+   */
+
+   .header-nav{
+     margin-top: 0px;
+   }
+.navbar{
+  height: 80px;
+  box-shadow: none;
+}
+
+.nav-item a{
+  color: #FFFFFF;
+}
+.nav-item a:hover{
+  color: #FFFFFF;
+  border-bottom: 2px solid currentColor;
+  text-decoration: none;
+}
+
+.space{
+  margin-bottom: 10px;
+}
+.nav-item{
+  margin-right: 40px; 
+}
+
+@media (max-width: 767px){
+  .nav-item{
+    margin-right: 0px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.navbr{
+  height: 100px;
+  box-shadow: none;
+  background-color: #6633cc;
+}
+.navbr img{
+  position: relative;
+  display: block;
+  width:90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: -48vw;
+}
+
+.topnav{
+  margin-right: 2vw;
+}
+
+
+.sidenav-trigger .material-icons{
+ font-size: 50px;
+ margin-top: 20px;
+}
+
+.sidenav-trigger,.sidenav-trigger:active,.sidenav-trigger:hover,.sidenav-trigger:visited{
+  text-decoration: none;
+  color: #FFFFFF;
+}

@@ -1,0 +1,74 @@
+.activation-linl{
+    height: 87vh;
+  background: linear-gradient(0deg, #ffffff 50%, #6633cc 50%);
+  margin-top: -10px;
+}
+
+.activation-message{
+    position: relative;
+    top: 30.6vh;
+}
+
+.activation-message .card{
+    width: 50vw !important;
+    margin-left: 25vw;
+}
+
+@media(max-width:420px){
+    .activation-message .card{
+        width: 80vw !important;
+        margin-left: 10vw;
+    }   
+}
+
+@media (orientation:portrait){
+    .rotate-device-lock{
+        display: none;
+    }
+}
+
+@media (min-width:630px) and (max-width:830px) and (orientation:landscape){
+    .activation-message{
+        display: none;
+    }
+    .activation-linl{
+        height: 75vh;
+        background: #6633cc;
+      margin-top: 0px;
+    }
+
+    .rotate-device-lock{
+        position: relative;
+        top: 50px;
+    }
+    
+    .phone {
+        height: 50px;
+        width: 100px;
+        border: 3px solid white;
+        border-radius: 10px;
+        animation: rotate 1.5s ease-in-out infinite alternate;
+        position: relative;
+        left: 43vw;
+        display: block;
+      }
+      
+      .message {
+        color: white;
+        font-size: 1em;
+        margin-top: 40px;
+      }
+      
+      @keyframes rotate {
+        0% {
+              transform: rotate(0deg)
+          }
+          50% {
+              transform: rotate(-90deg)
+          }
+          100% {
+              transform: rotate(-90deg)
+          }
+      }
+      
+}

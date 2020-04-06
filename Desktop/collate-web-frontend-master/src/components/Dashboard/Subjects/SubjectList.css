@@ -1,0 +1,12 @@
+.ex-card{
+    background-color: orange !important;
+    height: 40px !important;
+    width: 280px !important;
+    margin-left: -40px !important;
+}
+.ex-head{
+    padding: 6px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+}

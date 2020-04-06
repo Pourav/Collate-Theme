@@ -1,0 +1,126 @@
+.icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+  
+  .navbr{
+    height: 15vh;
+    box-shadow: none;
+  }
+  .navbr img{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    bottom: 0;
+  }
+  #index-banner{
+    padding-left: 50px;
+  }
+  .headr {
+    background: url('../../assests/background\ website.png') right top no-repeat; 
+  }
+  
+  #download-button{
+    font-size: 140%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .topnav{
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  
+  .brand-logo{
+    margin: 20px;
+  }
+  
+  .basic-1 {
+      padding-top: 1.625rem;
+      padding-bottom: 3.75rem;
+  }
+  
+  .basic-1 .text-container {
+    margin-bottom: 4rem;
+    padding-left: 70px;
+  }
+  
+  .basic-1 h2 {
+      margin-bottom: 1.375rem;
+  }
+  
+  .basic-1 .btn-solid-reg {
+      margin-top: 0.625rem;
+  }
+  
+  .basic-2 {
+      padding-top: 1.625rem;
+    padding-bottom: 3.75rem;
+    padding-left: 50px;
+  }
+  
+  .basic-2 .text-container {
+    margin-bottom: 4rem;
+    padding-left: 0px;
+    margin-right: 70px;
+  }
+  
+  .basic-2 h2 {
+      margin-bottom: 1.375rem;
+  }
+  
+  .basic-2 .btn-solid-reg {
+      margin-top: 0.625rem;
+  }
+  
+  .image-container img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .seperate{
+    background-color: #6633cc;
+    width: 50%;
+    height: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  
+  .join-us{
+    height: 25vw;
+  }
+  
+  .join-us b{
+    font-size: 4vw;
+  }
+  
+  .app-download{
+    color: #808080;
+  }
+  
+  
+  #begin-button{
+    font-size: 2vw;
+    border-radius: 10px;
+  }
+  
+  .main-footer{
+    max-width: 90vw;
+  }
+   .main-footer li{
+     margin-bottom: 10px;
+   }
+   
+  
+  .copy-footer{
+    width: 90vw;
+    position: relative;
+  }
+  
+  

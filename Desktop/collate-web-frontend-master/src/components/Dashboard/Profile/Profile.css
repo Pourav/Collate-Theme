@@ -1,0 +1,19 @@
+.profile{
+    margin-top: 110px;
+    margin-left: 350px;
+}
+img{
+    height: 90px !important;
+}
+
+.submit-btn{
+    float: left;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px){
+    .profile{
+        margin-left: 15px;
+    }
+    
+}
