@@ -9,17 +9,19 @@ import notesimg from '../../../assests/notes.png';
 const dashMain=()=>{
     return(
         <div>
-             <Sidebar/>
+            <div className="sidebar">
+            <Sidebar/>
+            </div>
              <div className="dash-main">
                  <div className="dash-heading left-align">
                  <span><strong>Hello</strong> Username!</span>
                  </div>
-                 <div className="dash-exclusive card">
+                 <div className="dash-exclusive card col-sm-12">
                      <div className="row">
-                         <div className="">
+                         <div className="hide-on-small-only">
                          <img src={Exclusiveimg} className="dash-ex-img"/>
                          </div>
-                         <div className="dash-body col s12">
+                         <div className="dash-body">
                          <p className="left-align mt-3 dash-intro ">Introducing</p>
                          <h5 className="left-align dash-head mb-3">Exclusive Content</h5>
                          <div className="row dash-in-body">
@@ -27,14 +29,14 @@ const dashMain=()=>{
                              <img src={lectureimg} className="dash-lecture"/>
                              <p className="lecture-desp">Detailed & well-explained exclusive Video Lectures, enveloping every topic of the University’s Curriculum.</p>
                              </div>
-                             <div className="dash-lecture">
+                             <div className="dash-lectures">
                              <img src={notesimg} className="dash-notes"/>
                              <p className="lecture-desp1 left-align"> The most elegant and adequate exclusive Notes available for University’s Examinations, covering each & every topic of the Curriculum.</p>
                              </div>
                          </div>
                          </div>
                          <div className="row mt-2 white-text">
-                             <div className="card down-card col-sm-12 col-md-6">
+                             <div className="card down-card col s12 ">
                              <p className="left-align ml-4 mt-3">Introducing</p>
                              <h5 className="newcard-heading ml-4">Personalized Platform</h5>
                              <p className="new-desp left-align ml-4"> For the very first time, a 

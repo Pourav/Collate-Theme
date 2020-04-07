@@ -85,3 +85,60 @@
 .new-desp{
     width: 270px;
 }
+
+@media screen and (max-width:800px){
+    .dash-main{
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .dash-heading{
+        padding-top: 30px !important;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+    .dash-exclusive{
+        width:340px !important;
+        height: 430px;
+    }
+    .dash-head{
+        font-size: 30px;
+    }
+    .dash-body{
+        margin-left: 10px !important;
+    }
+    .dash-in-body{
+        margin-left: 20px;
+        width: 300px;
+    }
+    .dash-lec{
+        border: none !important;
+        margin-left: -30px !important;
+    }
+    .dash-lectures{
+        margin-top: 10px;
+        margin-left: -10px;
+        border-top: 1px solid grey;
+        padding-top: 20px;
+    }
+    .lecture-desp{
+        width: 250px !important;
+    }
+    .lecture-desp1{
+        width: 250px !important;
+        text-align: center;
+    }
+    .down-card{
+        position: relative;
+        margin-top: 0px;
+        width: 340px !important;
+        margin-left: -10px !important;
+    }
+    .down-card1{
+        position: absolute;
+        margin-top: 280px;
+        width: 330px !important;
+        margin-left: -10px !important;
+        
+    }
+
+}
